@@ -45,7 +45,7 @@ export const Loginpage: React.FunctionComponent = () => {
     setShowHelperText(!username || !password);
 
     if (username=='admin' && password=='password') {
-        navigate('/home'); // Redirect to /home after login
+        navigate('/home'); 
       }
       else{
         setShowHelperText(true);

@@ -39,7 +39,7 @@ export const Sidebar: React.FunctionComponent<SidebarProps> = ({ activeItem,setA
         break;
       case 'ungrouped_item-2':
         setActiveGroup('User Information');
-        navigate('UserInformation');
+        navigate('Userinfo');
         break;
       default:
         setActiveGroup('');

@@ -23,9 +23,7 @@ import {Sidebar} from './Sidebar.tsx';
 
 
 
-export const Navbar: React.FunctionComponent = ({
-
-}) =>{
+export const Navbar: React.FunctionComponent = () =>{
 
   const [readExpanded, setReadExpanded] = React.useState(false);
 
